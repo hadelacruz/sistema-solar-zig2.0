@@ -1,0 +1,17 @@
+.{
+    .name = .sistema_solar,
+    .version = "0.1.0",
+    .fingerprint = 0xf6c7984b1c5119eb,
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .raylib_zig = .{
+            .url = "git+https://github.com/raylib-zig/raylib-zig#12bfe3d892a26dae08630158d92748fdd1daa666",
+            .hash = "raylib_zig-6.0.0-KE8RENajBQCRgY1ra9HwCXq8yWIMt1qA6OaiRNirMidq",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
